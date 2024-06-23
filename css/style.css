@@ -1,0 +1,48 @@
+
+body{
+  background-color: darkgreen;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-style: italic;
+  font-family: Arial;
+  font-size: x-large;
+  font-weight: bold;
+  display: block;
+  padding-bottom: 20px;
+}
+
+button{
+  background-color: goldenrod;
+  width: 150px;
+  color: #016f32;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 5px auto;
+}
+button:hover{
+  opacity: 80%;
+  cursor:pointer;
+  transform: scale(1.1);
+}
+.shelf{
+  .apple-shelf{
+    background-color: lightpink;
+    display: block;
+    width: 300px;
+    height: 40px;
+    margin: 300px auto 0;
+    border-radius: 12px;
+  }
+  .orange-shelf{
+    background-color: lightsalmon;
+    display: block;
+    margin: 10px auto;
+    width: 300px;
+    height: 40px;
+    border-radius: 12px;
+  }
+}
+
